@@ -8,7 +8,7 @@ Console.WriteLine();
 
 string[] lines = File.ReadAllLines(inputFile);
 
-int value = lines.Select(IsSafe).Count(x=>x);
+int value = lines.Count(IsSafe);
 
 Console.WriteLine($"The answer is: {value}");
 
@@ -16,7 +16,7 @@ Console.WriteLine();
 Console.WriteLine("Star 2");
 Console.WriteLine();
 
-int value2 = lines.Select(IsSafe2).Count(x => x); ;
+int value2 = lines.Count(IsSafe2); ;
 
 Console.WriteLine($"The answer is: {value2}");
 
