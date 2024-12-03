@@ -16,7 +16,7 @@ Console.WriteLine();
 Console.WriteLine("Star 2");
 Console.WriteLine();
 
-int value2 = lines.Count(IsSafe2); ;
+int value2 = lines.Count(IsSafe2);
 
 Console.WriteLine($"The answer is: {value2}");
 
