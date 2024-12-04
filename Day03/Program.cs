@@ -74,5 +74,5 @@ long AllRegexAllTheTime(string line)
 
 long ConvertMatch(Match match)
 {
-    return long.Parse(new string(match.Groups[3].Value.Reverse().ToArray())) * long.Parse(new string(match.Groups[4].Value.Reverse().ToArray()));
+    return long.Parse(new string(match.Groups[2].Value.Reverse().ToArray())) * long.Parse(new string(match.Groups[3].Value.Reverse().ToArray()));
 }
