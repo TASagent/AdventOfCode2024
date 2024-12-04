@@ -55,5 +55,24 @@ foreach (Match match in scanner2.Matches(line))
 
 Console.WriteLine($"The answer is: {value2}");
 
+
+Console.WriteLine($"The Regex Attempt is: {AllRegexAllTheTime(line)}");
+
+
 Console.WriteLine();
 Console.ReadKey();
+
+
+long AllRegexAllTheTime(string line)
+{
+    line = new string(line.Replace('\n', '.').Reverse().ToArray());
+    // Uncertain why this is failing. It's the same as https://regex101.com/r/mS5bPi/5
+    Regex allRegexScanner = new Regex(@"(?=.*?(?:(\)\(t'nod)|\)\(od|$))(?:\)(\d{1,3}),(\d{1,3})\(lum)(?(1)(?!))");
+
+    return scanner2.Matches(line).Select(ConvertMatch).Sum();
+}
+
+long ConvertMatch(Match match)
+{
+    return long.Parse(new string(match.Groups[3].Value.Reverse().ToArray())) * long.Parse(new string(match.Groups[4].Value.Reverse().ToArray()));
+}
