@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day04 - Ceres Search", "Day
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day05 - Print Queue", "Day05\Day05 - Print Queue.csproj", "{7DBE1C8C-E059-43E2-8767-8CF4FC196F3E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06", "Day06\Day06.csproj", "{2A8321A6-4858-4045-9E67-5168A4FDC1E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06 - Guard Gallivant", "Day06\Day06 - Guard Gallivant.csproj", "{2A8321A6-4858-4045-9E67-5168A4FDC1E1}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day07", "Day07\Day07.csproj", "{F37DB364-99CC-4B13-B0CA-0CCC4B741154}"
 EndProject
@@ -64,6 +64,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		input05.txt = input05.txt
 		input05a.txt = input05a.txt
 		input06.txt = input06.txt
+		input06a.txt = input06a.txt
 		input07.txt = input07.txt
 		input08.txt = input08.txt
 		input09.txt = input09.txt
