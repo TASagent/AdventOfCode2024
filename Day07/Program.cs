@@ -5,10 +5,8 @@ Console.WriteLine("Star 1");
 Console.WriteLine();
 
 string[] lines = File.ReadAllLines(inputFile);
-//string line = File.ReadAllText(inputFile);
 
 List<TrainLine> trainLines = lines.Select(x=> new TrainLine(x)).ToList();
-
 
 long value = trainLines.Where(x => x.IsValid()).Sum(x => x.TestValue);
 
@@ -37,17 +35,9 @@ class TrainLine
         Values = splitLine.Skip(1).Select(long.Parse).ToList();
     }
 
-    public bool IsValid()
-    {
-        return CheckValues(1, Values[0]);
-    }
+    public bool IsValid() => CheckValues(1, Values[0]);
 
-    public bool IsValid2()
-    {
-        return CheckValues2(1, Values[0]);
-    }
-
-    public bool CheckValues(int index, long total)
+    private bool CheckValues(int index, long total)
     {
         if (index == Values.Count)
         {
@@ -63,7 +53,9 @@ class TrainLine
         return false;
     }
 
-    public bool CheckValues2(int index, long total)
+    public bool IsValid2() => CheckValues2(1, Values[0]);
+
+    private bool CheckValues2(int index, long total)
     {
         if (index == Values.Count)
         {
