@@ -19,7 +19,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day06 - Guard Gallivant", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day07 - Bridge Repair", "Day07\Day07 - Bridge Repair.csproj", "{F37DB364-99CC-4B13-B0CA-0CCC4B741154}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day08", "Day08\Day08.csproj", "{C40C0F2F-E0F1-41E0-BE9A-84292FED7AD6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day08 - Resonant Collinearity", "Day08\Day08 - Resonant Collinearity.csproj", "{C40C0F2F-E0F1-41E0-BE9A-84292FED7AD6}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day09", "Day09\Day09.csproj", "{DEA626D7-1DF0-480B-B99F-6BF3CB40D370}"
 EndProject
@@ -67,6 +67,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		input06a.txt = input06a.txt
 		input07.txt = input07.txt
 		input08.txt = input08.txt
+		input08a.txt = input08a.txt
 		input09.txt = input09.txt
 		input10.txt = input10.txt
 		input11.txt = input11.txt
