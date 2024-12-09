@@ -7,7 +7,6 @@ Console.WriteLine("Star 1");
 Console.WriteLine();
 
 string[] lines = File.ReadAllLines(inputFile);
-//string line = File.ReadAllText(inputFile);
 
 Dictionary<Point2D, char> grid = lines.ToDictionaryGrid();
 

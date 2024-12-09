@@ -6,7 +6,6 @@ Console.WriteLine("Day 03 - Mull It Over");
 Console.WriteLine("Star 1");
 Console.WriteLine();
 
-//string[] lines = File.ReadAllLines(inputFile);
 string line = File.ReadAllText(inputFile);
 
 Regex scanner = new Regex(@"mul\((\d+),(\d+)\)");

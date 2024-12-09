@@ -5,7 +5,6 @@ Console.WriteLine("Star 1");
 Console.WriteLine();
 
 string[] lines = File.ReadAllLines(inputFile);
-//string line = File.ReadAllText(inputFile);
 
 List<long> firstList = new List<long>();
 List<long> secondList = new List<long>();
