@@ -1,6 +1,6 @@
 ﻿const string inputFile = @"../../../../input09.txt";
 
-Console.WriteLine("Day 09 - ???");
+Console.WriteLine("Day 09 - Disk Fragmenter");
 Console.WriteLine("Star 1");
 Console.WriteLine();
 
