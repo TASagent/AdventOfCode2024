@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day10 - Hoof It", "Day10\Da
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day11 - Plutonian Pebbles", "Day11\Day11 - Plutonian Pebbles.csproj", "{33346425-4E88-4677-8CEB-4444C0988B1D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day12", "Day12\Day12.csproj", "{6DC9F730-F708-4576-86AE-1EF7AEAF7C4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day12 - Garden Groups", "Day12\Day12 - Garden Groups.csproj", "{6DC9F730-F708-4576-86AE-1EF7AEAF7C4B}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day13", "Day13\Day13.csproj", "{B3AE63CF-1BD7-45B0-B6E1-9F8148374B6B}"
 EndProject
@@ -75,6 +75,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		input11.txt = input11.txt
 		input11a.txt = input11a.txt
 		input12.txt = input12.txt
+		input12a.txt = input12a.txt
 		input13.txt = input13.txt
 		input14.txt = input14.txt
 		input15.txt = input15.txt
