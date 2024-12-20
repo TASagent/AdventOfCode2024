@@ -57,6 +57,12 @@ public readonly struct Point2D
     public static Point2D operator -(in Point2D value) =>
         new Point2D(-value.x, -value.y);
 
+    public static Point2D operator %(in Point2D lhs, in Point2D rhs) =>
+        new Point2D(lhs.x % rhs.x, lhs.y % rhs.y);
+
+    public static Point2D operator %(in Point2D lhs, in int rhs) =>
+        new Point2D(lhs.x % rhs, lhs.y % rhs);
+
     public void Deconstruct(out int x, out int y)
     {
         x = this.x;
